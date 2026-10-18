@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hand Tracking Experiment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="start">Buka kameara</button>
+  <p id="status">Status: belum aktif</p>
+
+  <div class="camera">
+    <video id="video" autoplay playsinline muted></video>
+    <canvas id="overlay"></canvas>
+  </div>
+
+  <h2 id="message">Awww</h2>
+  <p id="detail">Belum ada gestur tangan</p>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
