@@ -43,8 +43,8 @@ Gesture recognition uses simple landmark-based rules, so detection may be inaccu
 Clone the repository:
 
 ```bash
-git clone https://github.com/perfectkaa/hand-particles.git
-cd hand-particles
+git clone https://github.com/perfectkaa/hand-tracking.git
+cd hand-tracking
 ```
 
 Start a local HTTP server using Python:
